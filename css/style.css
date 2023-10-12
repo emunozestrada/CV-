@@ -7,68 +7,141 @@ body{
     color: rgb(58, 57, 57);
     font-family: 'Monserrat', sans-serif;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0;    
 }
 
-.Flex-container{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(34, 121, 133);
-    width: 55%;
-    margin: 0 auto;
-}    
-
-header img{
-    width: 238px;
-    height: 320px; 
+.principal-container {
+  width: 50%;
+  height: 15rem;
+  background-color: rgb(40, 150, 184);  
+  margin: 0 20rem 0 20rem;  
 }
 
-header h1{
-    font-size: 25px;
-    letter-spacing: 0.2ch;
-    text-align: center;
-    padding-top: 190px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 0px;
+.image {
+  width: 25%;
+  height: 100%;
 }
 
-header h2{
-    font-size: 15px;
-    letter-spacing: 0.1ch;
-    text-align: center;
-    padding-top: 0px;
-    padding-left: 60px;
-    padding-right: 60px;
-}    
-
-.caja{
-    color: white;
-    height: 320px;
+.image img {
+  width: auto;
+  height: 15rem;
 }
 
-.Flex-container2{
-    display: flex;
-    flex-direction: row;
-    width: 55%;
-    margin: 0 auto;
+.principal-box {
+  width: 100%;
+  height: 15rem; 
+  display: flex;
+  flex-direction: row;  
 }
 
-.column1{
-    background-color: rgb(210, 238, 238);
-    width: 222px;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 55px;
-    font-size: 10px;
+.name {
+  width: 75%;
+  height: 100%;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 85px;
+  font-weight: normal;
 }
 
-.column2{
-    background-color: aliceblue;
-    width: 68%;
-    font-size: 12px;
-    text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-bottom: 10px solid rgb(34, 121, 133);
+.information-container {
+  width: 50%;
+  height: 46rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20rem 0 20rem;    
 }
+
+.contact-information {
+  width: 27.8%;
+  height: 100%;
+  background-color: rgb(202, 235, 248);
+}
+
+.title-box {
+  width: 92%;
+  height: 20px;
+  margin: 42px 7px 21px 7px;
+}
+
+.title {
+  width:82%;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: left;
+  margin: 30px 17px 17px 17px;
+  border-bottom: solid 2px rgb(100, 105, 107);
+}
+
+.subtitle-box {
+  width: 78%;
+  height: 55px;
+  margin: 30px 11px 10px 26px;
+}
+
+.subtitle {  
+  font-size: 12px;
+  font-weight: 800 ;
+  text-align: left; 
+}
+
+span {
+  font-size: 12px; }
+
+a { font-size: 10px; }
+
+.subtitle-languaje-box ul {
+  width: 76%;
+  list-style-type: none;
+  padding-left: 26px;  
+}
+
+.percentage1 { margin-left: 45px; }
+
+.percentage2 { margin-left: 62px; }
+
+.experience-information {
+  width: 73%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.experience-title {
+  width: 92.3%;
+  font-size: 10px;
+  font-weight: 800;
+  text-align: left;
+  margin: 40px 10px 10px 24px;
+}
+
+.experience-subtitle {
+  width: 88.6%;
+  font-size: 9px;
+  font-weight: 800;
+  text-align: left; 
+  margin: 20px 22px 0px 26px;
+}
+
+.year {
+  font-size: 10px;
+  text-align: left;
+  font-size: 10px;
+  margin: 0 10px 2px 0;
+}
+
+.description-experience {
+  font-size: 11px;
+  text-align: justify;
+  font-weight: normal;
+  margin: 8px 10px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
